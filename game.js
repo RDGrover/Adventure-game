@@ -305,7 +305,7 @@ const textNodes = [
     },
     {
         id: 19,
-        text: "You burst through the door catching the bandits off guard and cutting down the two you saw with knives. The other two move to attack you but they don't have weapons you easily take them out and they scream. As the scream echoes out into the night and you look over the table full of spoils the door bursts open again. Two large men weilding axes storm in not asking questions you only have time to block one mans axe before the other one hits you in the chest. The men pick up the bloodsoaked treasure and leave the corpse strewn house."
+        text: "You burst through the door catching the bandits off guard and cutting down the two you saw with knives. The other two move to attack you but they don't have weapons you easily take them out and they scream. As the scream echoes out into the night and you look over the table full of spoils the door bursts open again. Two large men weilding axes storm in not asking questions you only have time to block one mans axe before the other one hits you in the chest. The men pick up the bloodsoaked treasure and leave the corpse strewn house.",
         options: [
             {
                 text: "Restart",
@@ -447,7 +447,7 @@ const textNodes = [
     },
     {
         id: 30,
-        text: "You pay the woman the money she asks for and she takes you up to your room upstairs. The room is very warm and homely and you quickly find yourself quickly falling asleep. In the middle of the night you wake suddenly with a sharp pain in your chest, you look down to see a knife and a ghoulish bandit smile."
+        text: "You pay the woman the money she asks for and she takes you up to your room upstairs. The room is very warm and homely and you quickly find yourself quickly falling asleep. In the middle of the night you wake suddenly with a sharp pain in your chest, you look down to see a knife and a ghoulish bandit smile.",
         options: [
             {
                 text: "Restart",
@@ -467,7 +467,7 @@ const textNodes = [
     },
     {
         id: 32,
-        text: "You clear your throat and announce your presence to her. She turns slowly in her chair and looks towards you. She has pale white skin and bright red lips but her eyes are pure black. She smiles at you and tells you that you passed her tests and if you will take her hand in marriage and join her as ruler of this castle and the place beyond."
+        text: "You clear your throat and announce your presence to her. She turns slowly in her chair and looks towards you. She has pale white skin and bright red lips but her eyes are pure black. She smiles at you and tells you that you passed her tests and if you will take her hand in marriage and join her as ruler of this castle and the place beyond.",
         options: [
             {
                 text: "Accept her proposal and join her",
@@ -522,7 +522,7 @@ const textNodes = [
     {
         id: 37, 
         text: "You accept the marriage proposal of the Pale Queen and immediately feel a change within yourself. Her power flows between the two of you and you feel that both of you are becoming stronger. As you look out the window you can see the world beyond changing, the sky changing to a blood red with black clouds and the land became a pale desert with colossal grey towers errupting all around. This was the place beyond and you were now its ruler, and your power is close to unstoppable.",
-        optional: [
+        options: [
             {
                 text: "Congratulations, you are now the ruler of the Place Beyond you and your new wife will rule until time's end. Play again for a different ending",
                 nextText: -1
