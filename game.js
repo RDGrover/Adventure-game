@@ -79,7 +79,7 @@ const textNodes = [
     },
     {
         id: 3,
-        text: "Still unsure where you are you walk past the merchant and arrive at a crossroads. To the north a castle on a hilltop, to the east a dark forest and to the east a small village.",
+        text: "Still unsure where you are you walk past the merchant and arrive at a crossroads. To the north a castle on a hilltop, to the west a dark forest and to the east a small village.",
         options: [
             {
                 text: "Climb the hill to explore the castle",
@@ -368,8 +368,8 @@ const textNodes = [
                 nextText: 30
             },
             {
-                text: "You can't afford it",
-                nextText: 12
+                text: "You can't afford it, leave the inn and head back to the crossroads",
+                nextText: 3
             }
         ]
     },
