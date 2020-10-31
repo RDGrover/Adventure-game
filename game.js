@@ -484,7 +484,7 @@ const textNodes = [
         text: "You reach out and your fingers touch the flames, but they aren't hot they're cold. The cold sensation works its way into you body as the fire disappears, you understand now why you were brought here. You were brought here for this, to accept the flame, its power, its knowledge, its responsibility. The forest belongs to you now, the darkness peels away from the trees and the branches sprout fresh leaves. It is your domain now.",
         options: [
             {
-                text: "Congratulations on becoming the guardian of the midnight forest, play again to find a different ending",
+                text: "Congratulations on becoming the guardian of the Midnight Forest, play again to find a different ending",
                 nextText: -1
             }
         ]
