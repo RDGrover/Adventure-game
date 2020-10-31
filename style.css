@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=MedievalSharp:100,200,300,400,500,600,700");
+
 *, *::before *::after {
     box-sizing: border-box;
 }
@@ -42,3 +44,7 @@ body {
     border: 2px solid #ffffff;
 }
 
+.text-styling{
+    font-size: 25px;
+    font-family: "MedievalSharp", sans-serif;
+}

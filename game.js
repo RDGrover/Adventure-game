@@ -42,15 +42,15 @@ function selectOption(option){
 const textNodes = [
     {
         id: 1,
-        text: "You wake up in a strange room near a jar of blue goo.",
+        text: "You wake up in a strange room with nothing but a small purse with gold coins.",
         options:[
             {
-              text: 'Take goo', 
-              setState: {blueGoo: true},
+              text: 'Take money', 
+              setState: {goldCoins: true},
               nextText: 2
             },
             {
-                text: 'Leave the goo',
+                text: 'Leave the money',
                 nextText: 2
             }
         ]
@@ -60,15 +60,15 @@ const textNodes = [
         text: "Leaving the room you find yourself on a road and venture forth in search of answers when you come across a merchant.",
         options: [
             {
-                text: "Trade blue goo for sword",
-                requiredState: (currentState) => currentState.blueGoo,
-                setState: {blueGoo: false, sword: true},
+                text: "Buy a sword",
+                requiredState: (currentState) => currentState.goldCoins,
+                setState: {goldCoins: false, sword: true},
                 nextText: 3           
             },
             {
-                text: "Trade blue goo for shield",
-                requiredState: (currentState) => currentState.blueGoo,
-                setState: {blueGoo: false, shield: true},
+                text: "Buy a shield",
+                requiredState: (currentState) => currentState.goldCoins,
+                setState: {goldCoins: false, shield: true},
                 nextText: 3           
             },
             {
