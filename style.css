@@ -2,6 +2,7 @@
 
 *, *::before *::after {
     box-sizing: border-box;
+    font-size: 10px;
 }
 
 
@@ -13,7 +14,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #444444;
+    background: url("img/forest.jpg") no-repeat center fixed;
 }
 
 .container {
@@ -45,6 +46,6 @@ body {
 }
 
 .text-styling{
-    font-size: 25px;
+    font-size: 2em;
     font-family: "MedievalSharp", sans-serif;
 }
